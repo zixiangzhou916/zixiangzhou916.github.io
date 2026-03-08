@@ -5,132 +5,266 @@
     font-weight: 400;
     src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-  }
-  /* latin */
-  @font-face {
+}
+/* latin */
+@font-face {
     font-family: 'Lato';
     font-style: italic;
     font-weight: 400;
     src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-  /* latin-ext */
-  @font-face {
+}
+/* latin-ext */
+@font-face {
     font-family: 'Lato';
     font-style: italic;
     font-weight: 700;
     src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_FQftx9897sxZ.woff2) format('woff2');
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-  }
-  /* latin */
-  @font-face {
+}
+/* latin */
+@font-face {
     font-family: 'Lato';
     font-style: italic;
     font-weight: 700;
     src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-  /* latin-ext */
-  @font-face {
+}
+/* latin-ext */
+@font-face {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-  }
-  /* latin */
-  @font-face {
+}
+/* latin */
+@font-face {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-  /* latin-ext */
-  @font-face {
+}
+/* latin-ext */
+@font-face {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
     src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-  }
-  /* latin */
-  @font-face {
+}
+/* latin */
+@font-face {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
     src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-  
-  a {
-    color: #1772d0;
-    text-decoration: none;
-  }
-  
-  a:focus,
-  a:hover {
-    color: #f09228;
-    text-decoration: none;
-  }
-  
-  body,
-  td,
-  th,
-  tr,
-  p,
-  a {
-    font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 16px
-  }
-  
-  strong {
-    font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 16px;
-  }
-  
-  heading {
-    font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 22px;
-  }
-  
-  papertitle {
-    font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 17px;
-    font-weight: 700
-  }
-  
-  name {
-    font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 32px;
-  }
-  
-  .one {
-    width: 160px;
-    height: 160px;
-    position: relative;
-  }
-  
-  .two {
-    width: 160px;
-    height: 160px;
-    position: absolute;
-    transition: opacity .2s ease-in-out;
-    -moz-transition: opacity .2s ease-in-out;
-    -webkit-transition: opacity .2s ease-in-out;
-  }
-  
-  .fade {
-    transition: opacity .2s ease-in-out;
-    -moz-transition: opacity .2s ease-in-out;
-    -webkit-transition: opacity .2s ease-in-out;
-  }
-  
-  span.highlight {
-    background-color: #ffffd0;
-  }
+}
 
-.underline {
-    color: black;
-    text-decoration: underline; 
+/* ==================== CSS Variables ==================== */
+:root {
+    --text-primary: #363636;
+    --text-secondary: #6b7280;
+    --link-color: #1772d0;
+    --link-hover: #f09228;
+    --bg-light: #f9fafb;
+    --border-color: #e5e7eb;
+    --shadow-light: 0 1px 3px rgba(0, 0, 0, 0.08);
+    --shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.12);
+    --radius: 8px;
+}
+
+/* ==================== Base Styles ==================== */
+body {
+    font-family: 'Source Sans 3', 'Lato', Verdana, Helvetica, sans-serif;
+    color: var(--text-primary);
+    line-height: 1.7;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:focus,
+a:hover {
+    color: var(--link-hover);
+    text-decoration: none;
+}
+
+/* ==================== Hero Section ==================== */
+.hero .image.is-square img {
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: var(--shadow-light);
+}
+
+.hero .title {
+    font-family: 'Source Sans 3', 'Lato', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+/* ==================== Contact & Buttons ==================== */
+.contact-info {
+    margin: 1rem 0;
+}
+
+.email-display {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+.buttons .button.external-link {
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    background: white;
+    color: var(--text-primary);
+    font-weight: 500;
+    transition: all 0.2s ease;
+    padding: 0.5em 1em;
+}
+
+.buttons .button.external-link:hover {
+    border-color: var(--link-color);
+    color: var(--link-color);
+    box-shadow: var(--shadow-light);
+}
+
+/* ==================== Section Title ==================== */
+.section-title {
+    font-family: 'Source Sans 3', 'Lato', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--link-color);
+    display: inline-block;
+}
+
+/* ==================== HR ==================== */
+.hr {
+    margin: 0;
+}
+
+.hr hr {
+    background-color: var(--border-color);
+    height: 1px;
+    margin: 0;
+}
+
+/* ==================== Topic Section ==================== */
+.topic-section {
+    margin-bottom: 2.5rem;
+}
+
+.topic-title {
+    font-family: 'Source Sans 3', 'Lato', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin-bottom: 1.2rem;
+    padding-left: 0.5rem;
+    border-left: 3px solid var(--link-color);
+}
+
+/* ==================== Publication Block ==================== */
+.publication-block {
+    background: white;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius);
+    padding: 1.2rem 1.5rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.publication-block:hover {
+    box-shadow: var(--shadow-hover);
+    border-color: var(--link-color);
+    transform: translateY(-1px);
+}
+
+.publication-title {
+    font-family: 'Source Sans 3', 'Lato', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.3rem !important;
+    line-height: 1.4;
+}
+
+.publication-venue {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--link-color);
+    margin-bottom: 0.3rem;
+}
+
+.publication-authors {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.6rem;
+}
+
+.publication-authors .author-block strong {
+    color: var(--text-primary);
+}
+
+.publication-links .button.is-small.is-rounded {
+    border: 1px solid var(--border-color);
+    background: var(--bg-light);
+    color: var(--text-primary);
+    font-size: 0.78rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.publication-links .button.is-small.is-rounded:hover {
+    border-color: var(--link-color);
+    color: var(--link-color);
+    background: white;
+}
+
+/* ==================== Selected Publications Section ==================== */
+.selected-publications {
+    padding: 2rem 1.5rem 3rem;
+}
+
+/* ==================== Footer ==================== */
+.footer {
+    background-color: var(--bg-light);
+}
+
+.footer p {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+}
+
+/* ==================== Responsive ==================== */
+@media screen and (max-width: 768px) {
+    .hero .title {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .hero .columns {
+        flex-direction: column;
+    }
+
+    .hero .column.is-4 {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    .publication-block {
+        padding: 1rem;
+    }
 }
